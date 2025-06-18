@@ -1,0 +1,8 @@
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: #fce4ec; /* Rosa pastel claro */
+  color: #880e4f; /* Rosa oscuro para el texto */
+  padding: 12px;
+  border-radius: 8px;
+}
