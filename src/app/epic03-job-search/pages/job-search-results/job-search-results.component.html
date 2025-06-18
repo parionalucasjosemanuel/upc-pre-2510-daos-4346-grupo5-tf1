@@ -1,0 +1,13 @@
+<h2>Recommended Jobs</h2>
+
+<app-job-filters (filtersChanged)="applyFilters($event)"></app-job-filters>
+
+<mat-card *ngFor="let job of filteredJobs" class="job-card">
+  <mat-card-title>{{ job.title }} at {{ job.company }}</mat-card-title>
+  <mat-card-content>
+    <p>Location: {{ job.location }}</p>
+    <p>Technologies: {{ job.technologies.join(', ') }}</p>
+    <p>Rating: {{ job.rating }} ⭐</p>
+    <p>Date: {{ job.createdAt | date }}</p>
+  </mat-card-content>
+</mat-card>

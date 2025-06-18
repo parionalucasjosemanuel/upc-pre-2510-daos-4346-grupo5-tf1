@@ -1,0 +1,38 @@
+<h2 style="margin-bottom: 100px;">Company Ratings</h2>
+
+<app-company-rating-form (save)="onRatingSaved($event)"></app-company-rating-form>
+
+<mat-list>
+  <mat-list-item *ngFor="let rating of ratings" style="margin-bottom: 32px;">
+    <div style="
+      display:flex;
+      flex-direction: row;
+      gap: 10px;
+      width: 200%;
+      padding: 100px 0;
+      background-color: #fafafa;
+      border-radius: 100px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    ">
+      <!-- Nombre de la empresa -->
+      <div style="font-size: 1.3rem; font-weight: 600; color: #222;">
+        {{ rating.company }}
+      </div>
+
+      <!-- Calificación -->
+      <div style="font-size: 1.1rem;">
+        <strong>Rating:</strong> {{ rating.stars }} ⭐
+      </div>
+
+      <!-- Comentario -->
+      <div style="font-size: 1rem; color: #333;">
+        {{ rating.comment }}
+      </div>
+
+      <!-- Autor y fecha -->
+      <div style="font-size: 0.9rem; color: #666;">
+        by {{ rating.author }} on {{ rating.date | date }}
+      </div>
+    </div>
+  </mat-list-item>
+</mat-list>

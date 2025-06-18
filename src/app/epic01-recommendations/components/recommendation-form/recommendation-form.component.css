@@ -1,0 +1,15 @@
+.full-width {
+  width: 100%;
+  margin-bottom: 1rem; /* usa rem para mejor escalabilidad */
+  padding: 0.75rem 1rem; /* espacio interno para que no se vea pegado */
+  box-sizing: border-box; /* para que el padding no aumente el ancho */
+  border-radius: 8px; /* bordes redondeados suaves */
+  background-color: #f5f7fa; /* un fondo muy suave y limpio */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* sombra sutil para profundidad */
+  transition: box-shadow 0.3s ease, background-color 0.3s ease; /* animación suave */
+}
+
+.full-width:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #e9eef5;
+}

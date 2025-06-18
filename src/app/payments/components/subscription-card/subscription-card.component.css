@@ -1,0 +1,14 @@
+.subscription-card {
+  border: 2px solid #ff6f61; /* rojo coral vibrante */
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ffe6e1, #ff6f61);
+  box-shadow: 0 8px 20px rgba(255, 111, 97, 0.4);
+  color: #3b1f1f;
+  font-weight: 600;
+  transition: box-shadow 0.3s ease;
+}
+
+.subscription-card:hover {
+  box-shadow: 0 12px 30px rgba(255, 111, 97, 0.7);
+}
