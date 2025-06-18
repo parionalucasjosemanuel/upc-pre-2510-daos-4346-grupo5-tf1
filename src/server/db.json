@@ -1,0 +1,519 @@
+{
+  "recommendations": [
+    {
+      "id": "1",
+      "title": "Alicorp",
+      "description": "La recomiendo por su constante innovación en productos y compromiso con la calidad para los consumidores.",
+      "author": "juanp",
+      "date": "2024-04-15T09:30:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Grupo Gloria",
+      "description": "Recomendada por su enfoque en la responsabilidad social y el desarrollo sostenible en el agro.",
+      "author": "mariana23",
+      "date": "2024-06-20T14:45:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Intercorp",
+      "description": "La elijo por su liderazgo en educación y servicios que impulsan el crecimiento económico.",
+      "author": "carloss",
+      "date": "2024-02-11T11:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Cementos Pacasmayo",
+      "description": "La recomiendo por su compromiso con proyectos de infraestructura que benefician a las comunidades locales.",
+      "author": "luisa99",
+      "date": "2023-11-05T10:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Banco de Crédito del Perú (BCP)",
+      "description": "Recomiendo BCP por su excelente servicio al cliente y adopción de tecnología para facilitar trámites bancarios.",
+      "author": "fernando45",
+      "date": "2023-09-18T13:15:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Southern Copper",
+      "description": "Destaco esta empresa por su gestión ambiental responsable y apoyo a las comunidades mineras.",
+      "author": "paula_m",
+      "date": "2024-03-22T08:30:00Z"
+    },
+    {
+      "id": "7",
+      "title": "InRetail Perú",
+      "description": "Recomendada por ofrecer una experiencia de compra completa y confiable en supermercados y farmacias.",
+      "author": "daniel07",
+      "date": "2024-07-10T16:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Aero Perú",
+      "description": "La recomiendo por su servicio amable y cobertura eficiente dentro del territorio nacional.",
+      "author": "veronica_g",
+      "date": "2023-12-28T12:20:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Coca-Cola Perú",
+      "description": "Recomiendo Coca-Cola por su compromiso con proyectos de sostenibilidad y apoyo a comunidades locales.",
+      "author": "miguel_b",
+      "date": "2024-01-30T15:10:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Telefónica del Perú",
+      "description": "La elijo por su innovación constante en telecomunicaciones y excelente atención al cliente.",
+      "author": "andrea_v",
+      "date": "2023-10-14T09:45:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Grupo Aenza",
+      "description": "Recomiendo esta empresa por su contribución al desarrollo de infraestructura que impulsa la economía peruana.",
+      "author": "luis_c",
+      "date": "2024-05-05T11:30:00Z"
+    },
+    {
+      "id": null,
+      "title": "TECNO ORIGIN",
+      "description": "Recomiendo esta empresa por su ambiente laboral, su sueldo alto y sus compañeros de trabajo responsables.",
+      "author": "Jose Manuel ",
+      "date": "2025-05-16T05:00:00.000Z"
+    }
+  ],
+  "companyRatings": [
+    {
+      "id": "1",
+      "company": "TechCorp",
+      "stars": 5,
+      "comment": "Excelente ambiente",
+      "author": "user1",
+      "date": "2024-10-01T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "company": "InnovaSoft",
+      "stars": 4,
+      "comment": "Buen soporte y liderazgo",
+      "author": "freemium",
+      "date": "2024-10-02T13:00:00Z"
+    },
+    {
+      "id": "3",
+      "company": "CodeHouse",
+      "stars": 3,
+      "comment": "Ambiente normal",
+      "author": "premium",
+      "date": "2024-10-03T14:00:00Z"
+    },
+    {
+      "id": "4",
+      "company": "DataPlus",
+      "stars": 2,
+      "comment": "Mucho estrés laboral",
+      "author": "user1",
+      "date": "2024-10-04T15:00:00Z"
+    },
+    {
+      "id": "5",
+      "company": "LogiTech",
+      "stars": 4,
+      "comment": "Tecnología de punta",
+      "author": "admin",
+      "date": "2024-10-05T16:00:00Z"
+    },
+    {
+      "id": "6",
+      "company": "AlphaSolutions",
+      "stars": 5,
+      "comment": "Excelentes beneficios",
+      "author": "freemium",
+      "date": "2024-10-06T17:00:00Z"
+    },
+    {
+      "id": "7",
+      "company": "SoftTech",
+      "stars": 3,
+      "comment": "Ambiente mixto",
+      "author": "premium",
+      "date": "2024-10-07T18:00:00Z"
+    },
+    {
+      "id": "8",
+      "company": "NeuralWare",
+      "stars": 4,
+      "comment": "Cultura organizacional fuerte",
+      "author": "user1",
+      "date": "2024-10-08T19:00:00Z"
+    },
+    {
+      "id": "9",
+      "company": "ByteX",
+      "stars": 1,
+      "comment": "No recomendable",
+      "author": "admin",
+      "date": "2024-10-09T20:00:00Z"
+    },
+    {
+      "id": "10",
+      "company": "ProDev",
+      "stars": 5,
+      "comment": "Altamente recomendado",
+      "author": "premium",
+      "date": "2024-10-10T21:00:00Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "company": "TechCorp",
+      "location": "Lima",
+      "technologies": [
+        "Angular",
+        "TypeScript"
+      ],
+      "rating": 4.5,
+      "createdAt": "2024-08-01T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Backend Developer",
+      "company": "InnovaSoft",
+      "location": "Arequipa",
+      "technologies": [
+        "Spring",
+        "PostgreSQL"
+      ],
+      "rating": 4,
+      "createdAt": "2024-08-02T09:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Fullstack Developer",
+      "company": "CodeHouse",
+      "location": "Cusco",
+      "technologies": [
+        "Node.js",
+        "Angular"
+      ],
+      "rating": 4.2,
+      "createdAt": "2024-08-03T10:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "DevOps Engineer",
+      "company": "LogiTech",
+      "location": "Trujillo",
+      "technologies": [
+        "Docker",
+        "Kubernetes"
+      ],
+      "rating": 4.8,
+      "createdAt": "2024-08-04T11:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "QA Tester",
+      "company": "AlphaSolutions",
+      "location": "Lima",
+      "technologies": [
+        "Jest",
+        "Cypress"
+      ],
+      "rating": 3.8,
+      "createdAt": "2024-08-05T12:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Data Analyst",
+      "company": "DataPlus",
+      "location": "Lima",
+      "technologies": [
+        "SQL",
+        "Python"
+      ],
+      "rating": 4,
+      "createdAt": "2024-08-06T13:00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "UX Designer",
+      "company": "SoftTech",
+      "location": "Iquitos",
+      "technologies": [
+        "Figma",
+        "Adobe XD"
+      ],
+      "rating": 4.1,
+      "createdAt": "2024-08-07T14:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Scrum Master",
+      "company": "NeuralWare",
+      "location": "Chiclayo",
+      "technologies": [
+        "Agile",
+        "Scrum"
+      ],
+      "rating": 4.6,
+      "createdAt": "2024-08-08T15:00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Mobile Developer",
+      "company": "ByteX",
+      "location": "Tacna",
+      "technologies": [
+        "Flutter",
+        "Dart"
+      ],
+      "rating": 4.3,
+      "createdAt": "2024-08-09T16:00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Product Manager",
+      "company": "ProDev",
+      "location": "Lima",
+      "technologies": [
+        "JIRA",
+        "Confluence"
+      ],
+      "rating": 4.7,
+      "createdAt": "2024-08-10T17:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "sender": "user1",
+      "receiver": "admin",
+      "content": "Hola, tengo una duda",
+      "timestamp": "2024-09-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "sender": "freemium",
+      "receiver": "admin",
+      "content": "¿Puedo actualizar mi plan?",
+      "timestamp": "2024-09-02T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "sender": "premium",
+      "receiver": "user1",
+      "content": "Hola, ¿quieres colaborar?",
+      "timestamp": "2024-09-03T10:00:00Z"
+    },
+    {
+      "id": "4",
+      "sender": "admin",
+      "receiver": "user1",
+      "content": "Sí, claro.",
+      "timestamp": "2024-09-04T10:00:00Z"
+    },
+    {
+      "id": "5",
+      "sender": "user1",
+      "receiver": "freemium",
+      "content": "Mira esta recomendación",
+      "timestamp": "2024-09-05T10:00:00Z"
+    },
+    {
+      "id": "6",
+      "sender": "freemium",
+      "receiver": "premium",
+      "content": "Buen trabajo en la evaluación",
+      "timestamp": "2024-09-06T10:00:00Z"
+    },
+    {
+      "id": "7",
+      "sender": "admin",
+      "receiver": "freemium",
+      "content": "Tu cuenta fue actualizada",
+      "timestamp": "2024-09-07T10:00:00Z"
+    },
+    {
+      "id": "8",
+      "sender": "user1",
+      "receiver": "admin",
+      "content": "¿Cómo edito mi perfil?",
+      "timestamp": "2024-09-08T10:00:00Z"
+    },
+    {
+      "id": "9",
+      "sender": "premium",
+      "receiver": "admin",
+      "content": "Gracias por el soporte",
+      "timestamp": "2024-09-09T10:00:00Z"
+    },
+    {
+      "id": "10",
+      "sender": "admin",
+      "receiver": "premium",
+      "content": "Estamos para ayudarte",
+      "timestamp": "2024-09-10T10:00:00Z"
+    },
+    {
+      "id": "3d55",
+      "sender": "parionalucasjosemanuel268@gmail.com",
+      "receiver": "alma@gmail.com",
+      "content": "HOLA BIENVENIDO ",
+      "timestamp": "2025-05-16T08:28:18.599Z"
+    },
+    {
+      "id": "c688",
+      "sender": "parionalucasj@gmail.com ",
+      "receiver": "lucia@gmail.com ",
+      "content": "NECESITO MAS INFORMACION SOBRE LA EMPRESA TECNO ORIGIN",
+      "timestamp": "2025-05-17T00:40:30.960Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@chamba.com",
+      "password": "123456",
+      "phone": "987654321"
+    },
+    {
+      "id": "2",
+      "email": "user1@chamba.com",
+      "password": "user123",
+      "name": "Usuario Uno",
+      "phone": "987654322"
+    },
+    {
+      "id": "3",
+      "email": "freemium@chamba.com",
+      "password": "freemium123",
+      "name": "Freemium User",
+      "phone": "987654323"
+    },
+    {
+      "id": "4",
+      "email": "premium@chamba.com",
+      "password": "premium123",
+      "name": "Premium User",
+      "phone": "987654324"
+    },
+    {
+      "id": "5",
+      "email": "soporte@chamba.com",
+      "password": "soporte123",
+      "name": "Soporte Técnico",
+      "phone": "987654325"
+    },
+    {
+      "id": "6",
+      "email": "dev@chamba.com",
+      "password": "dev123",
+      "name": "Desarrollador",
+      "phone": "987654326"
+    },
+    {
+      "id": "7",
+      "email": "analista@chamba.com",
+      "password": "analista123",
+      "name": "Analista",
+      "phone": "987654327"
+    },
+    {
+      "id": "8",
+      "email": "lider@chamba.com",
+      "password": "lider123",
+      "name": "Líder de Proyecto",
+      "phone": "987654328"
+    },
+    {
+      "id": "9",
+      "email": "ux@chamba.com",
+      "password": "ux123",
+      "name": "Diseñador UX",
+      "phone": "987654329"
+    },
+    {
+      "id": "10",
+      "email": "qa@chamba.com",
+      "password": "qa123",
+      "name": "Tester QA",
+      "phone": "987654330"
+    },
+    {
+      "id": null,
+      "name": "Jose Manuel ",
+      "email": "micchon@gmail.com",
+      "password": "LiderGroup100%",
+      "phone": "931403087"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "TechCorp",
+      "description": "Desarrolla software empresarial",
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "InnovaSoft",
+      "description": "Consultoría en transformación digital",
+      "rating": 4.2
+    },
+    {
+      "id": "3",
+      "name": "CodeHouse",
+      "description": "Agencia de desarrollo web",
+      "rating": 3.9
+    },
+    {
+      "id": "4",
+      "name": "DataPlus",
+      "description": "Soluciones en big data",
+      "rating": 4.1
+    },
+    {
+      "id": "5",
+      "name": "LogiTech",
+      "description": "Automatización y logística",
+      "rating": 4.3
+    },
+    {
+      "id": "6",
+      "name": "AlphaSolutions",
+      "description": "Servicios de TI integrados",
+      "rating": 4.7
+    },
+    {
+      "id": "7",
+      "name": "SoftTech",
+      "description": "Start-up de tecnología educativa",
+      "rating": 4
+    },
+    {
+      "id": "8",
+      "name": "NeuralWare",
+      "description": "IA aplicada al comercio",
+      "rating": 4.4
+    },
+    {
+      "id": "9",
+      "name": "ByteX",
+      "description": "Seguridad informática avanzada",
+      "rating": 3.5
+    },
+    {
+      "id": "10",
+      "name": "ProDev",
+      "description": "Desarrollo de software personalizado",
+      "rating": 4.8
+    }
+  ]
+}

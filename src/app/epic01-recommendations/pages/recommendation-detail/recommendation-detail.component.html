@@ -1,0 +1,2 @@
+<h2>{{ recommendation ? 'Edit' : 'Create' }} Recommendation</h2>
+<app-recommendation-form [initialData]="recommendation" (save)="onSave($event)"></app-recommendation-form>

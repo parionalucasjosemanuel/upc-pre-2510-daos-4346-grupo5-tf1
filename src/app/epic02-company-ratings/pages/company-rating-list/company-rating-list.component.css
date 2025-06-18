@@ -1,0 +1,8 @@
+mat-list-item {
+  margin-bottom: 16px;
+  background-color: #e3f2fd; /* Azul cielo claro */
+  color: #0d47a1; /* Azul profundo para el texto */
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
