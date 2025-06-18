@@ -1,0 +1,13 @@
+mat-list-item {
+  margin-bottom: 16px;
+  border-bottom: 2px solid #2979ff; /* azul brillante */
+  padding-bottom: 12px;
+  background-color: #e3f2fd; /* azul pastel muy suave */
+  color: #0d47a1; /* azul oscuro para texto */
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+mat-list-item:hover {
+  background-color: #bbdefb; /* azul pastel un poco más intenso al hover */
+}
