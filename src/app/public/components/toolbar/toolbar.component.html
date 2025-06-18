@@ -1,0 +1,25 @@
+<mat-toolbar color="primary" role="navigation">
+  <img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-8760-61f7-9a44-3d4729f9b1a0/raw?se=2025-05-29T14%3A09%3A52Z&sp=r&sv=2024-08-04&sr=b&scid=d61f7f6a-b96f-5ddc-b4fd-30cfa0ab4cb8&skoid=b64a43d9-3512-45c2-98b4-dea55d094240&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-29T07%3A50%3A31Z&ske=2025-05-30T07%3A50%3A31Z&sks=b&skv=2024-08-04&sig=/tb41MfQDgVfaVKmUoUO7erzhSdC9ijNrnwbS0L8WI8%3D" alt="TuChamba Logo" class="logo" aria-label="Company logo" />
+  <span class="toolbar-title" aria-label="App Title">TuChambaMásCerca </span>
+
+  <!-- Espaciador para separar título de botones -->
+  <span class="spacer"></span>
+
+  <button mat-button (click)="navigateTo('/epic01')">Recommendations</button>
+  <button mat-button (click)="navigateTo('/epic01/detail')">New Recommnendation</button>
+  <button mat-button (click)="navigateTo('/epic02')">Ratings</button>
+  <button mat-button (click)="navigateTo('/epic03')">Search</button>
+  <button mat-button (click)="navigateTo('/epic04')">Messages</button>
+  <button mat-button (click)="navigateTo('/epic04/contact')">Contact</button>
+  <button mat-button (click)="navigateTo('/epic05')">Chatbot</button>
+  <button mat-button (click)="navigateTo('/epic06')">Profile</button>
+  <button mat-button (click)="navigateTo('/epic07/best')">Best Ranking</button>
+  <button mat-button (click)="navigateTo('/epic07/worst')">Worst Ranking</button>
+  <button mat-button (click)="navigateTo('/epic08')">Map & Alerts</button>
+  <button mat-button (click)="navigateTo('/epic09')">i18n & a11y</button>
+  <button mat-button (click)="navigateTo('/epic10')">Security</button>
+
+  <ng-container *ngIf="isPremium">
+    <button mat-button (click)="navigateTo('/payments')">Premium Zone</button>
+  </ng-container>
+</mat-toolbar>

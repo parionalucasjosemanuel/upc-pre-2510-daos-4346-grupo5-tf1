@@ -1,0 +1,80 @@
+<h2>Companies Near You</h2>
+<app-mapbox-map [locations]="locations"></app-mapbox-map>
+<!-- Empresa con rating más alto -->
+<div class="top-company" style="margin-top: 20px; padding: 15px; border: 2px solid #4caf50; border-radius: 8px; background: #e8f5e9;">
+  <h3>Top Rated Company: ProDev</h3>
+  <p><strong>Description:</strong> Desarrollo de software personalizado</p>
+  <p><strong>Rating:</strong> 4.8</p>
+  <a href="https://maps.app.goo.gl/ZMU82FJRp4QKEec96" target="_blank" rel="noopener noreferrer" style="color: #388e3c; font-weight: bold;">
+    Ver en Google Maps
+  </a>
+  <!-- Mapa interactivo embebido (coincide con la ubicación del link) -->
+  <div style="margin-top: 15px;">
+    <iframe
+      width="100%"
+      height="300"
+      frameborder="0"
+      style="border:0"
+      src="https://www.google.com/maps?q=-12.040486,-77.029785&z=18&output=embed"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
+<!-- Lista de otras empresas ordenadas por rating, con links reales a mapas cerca de Lima -->
+<div class="other-companies" style="margin-top: 30px;">
+  <h3>Other Companies</h3>
+  <ul>
+    <li>
+      <strong>AlphaSolutions</strong> - Servicios de TI integrados (Rating: 4.7) -
+      <a href="https://maps.app.goo.gl/Uuo4Qvm8L4ETha7X7" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>TechCorp</strong> - Desarrolla software empresarial (Rating: 4.5) -
+      <a href="https://maps.app.goo.gl/xYoGShFXjRvQKj9x8" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>NeuralWare</strong> - IA aplicada al comercio (Rating: 4.4) -
+      <a href="https://maps.app.goo.gl/BNzj8ioqiw4Q7iP96" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>LogiTech</strong> - Automatización y logística (Rating: 4.3) -
+      <a href="https://maps.app.goo.gl/57k3K5pmv61gytZ78" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>InnovaSoft</strong> - Consultoría en transformación digital (Rating: 4.2) -
+      <a href="https://maps.app.goo.gl/mf9oeDaFnf4ypoiWA" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>DataPlus</strong> - Soluciones en big data (Rating: 4.1) -
+      <a href="https://maps.app.goo.gl/FdzwtTbiSCGqPpKh9" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>SoftTech</strong> - Start-up de tecnología educativa (Rating: 4.0) -
+      <a href="https://maps.app.goo.gl/rat7PkcDmykQk4A4A" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>CodeHouse</strong> - Agencia de desarrollo web (Rating: 3.9) -
+      <a href="https://maps.app.goo.gl/Cu5YeZFSnpY9ynjcA" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+    <li>
+      <strong>ByteX</strong> - Seguridad informática avanzada (Rating: 3.5) -
+      <a href="https://maps.app.goo.gl/GE8an1UpN5qN8RvP7" target="_blank" rel="noopener noreferrer">Mapa</a>
+    </li>
+  </ul>
+</div>
+
+<div style="margin-top: 40px;">
+  <h3>Mapa interactivo de Google Maps</h3>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.334472317702!2d-77.04279368477936!3d-12.046374891443422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b52f01023f%3A0x5e0db4a0e8a0198b!2sLima%2C%20Peru!5e0!3m2!1sen!2sus!4v1685555555555!5m2!1sen!2sus"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
