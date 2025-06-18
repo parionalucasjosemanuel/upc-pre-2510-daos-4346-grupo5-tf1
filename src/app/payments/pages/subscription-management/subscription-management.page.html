@@ -1,0 +1,5 @@
+<h2>Manage Subscriptions</h2>
+<div *ngFor="let sub of subscriptions">
+  <app-subscription-card [subscription]="sub"></app-subscription-card>
+  <button (click)="cancel(sub.id)" aria-label="Cancel subscription">Cancel</button>
+</div>
