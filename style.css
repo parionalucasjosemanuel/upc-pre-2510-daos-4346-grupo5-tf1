@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: lightblue;
+}
+
+.header {
+    background: #1e293b;
+    padding: 1rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links .btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.nav-links .highlight {
+    background-color: #22c55e;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.carousel-image {
+    width: 100%;
+    display: none;
+}
+
+.carousel-image.active {
+    display: block;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.carousel-btn.prev {
+    left: 0;
+}
+
+.carousel-btn.next {
+    right: 0;
+}
+
+.home-text {
+    text-align: center;
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+
+.home-text h2 {
+    font-size: 2rem;
+    color: hsl(224, 64%, 33%);
+}
+
+.btn.cta {
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.7rem;
+    text-decoration: none;
+}
+
+.section {
+    padding: 3rem 2rem;
+    background-color: lightblue;
+}
+
+.section.alt {
+    background-color: lightblue;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: hsl(224, 64%, 33%);
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.card, .testimonial, .team-member {
+    background-color: lightyellow;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img, .testimonial img, .team-member img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    width: 45%;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    gap: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer .socials {
+    margin: 1rem 0;
+}
+
+.footer .socials a {
+    margin: 0 1rem;
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.stats-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: lightblue;
+    box-shadow: 0 4px 10px lightblue;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stats-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #1f3c88;
+}
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.stat-box {
+    background: #1f3c88;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    flex: 1 1 200px;
+    max-width: 200px;
+    box-shadow: 0 6px 20px lightblue;
+    transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: scale(1.05);
+}
+
+.stat-number {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Visually hidden class for accessibility */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
