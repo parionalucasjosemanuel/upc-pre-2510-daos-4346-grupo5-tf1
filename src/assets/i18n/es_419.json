@@ -1,0 +1,65 @@
+{
+  "app": {
+    "title": "TuChambaMásCercana",
+    "welcome": "Bienvenido a TuChambaMásCercana",
+    "logout": "Cerrar sesión"
+  },
+  "navbar": {
+    "epic01": "Recomendaciones",
+    "epic02": "Calificaciones de Empresas",
+    "epic03": "Buscar Trabajos",
+    "epic04": "Mensajes de Usuario",
+    "epic05": "Apoyo Emocional",
+    "epic06": "Perfil de Usuario",
+    "epic07": "Ranking de Empresas",
+    "epic08": "Mapas y Notificaciones",
+    "epic09": "Configuración",
+    "epic10": "Seguridad",
+    "payments": "Suscripción"
+  },
+  "footer": {
+    "terms": "Términos y Condiciones"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "back": "Regresar",
+    "contact": "Contactar",
+    "rate": "Calificar"
+  },
+  "forms": {
+    "recommendation": {
+      "title": "Registrar Recomendación",
+      "company": "Empresa",
+      "position": "Puesto",
+      "salary": "Salario",
+      "tools": "Herramientas Utilizadas",
+      "interview": "Proceso de Entrevista",
+      "workEnv": "Ambiente Laboral",
+      "submit": "Enviar Recomendación"
+    },
+    "login": {
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "login": "Iniciar sesión"
+    },
+    "register": {
+      "title": "Registro",
+      "confirmPassword": "Confirmar Contraseña"
+    },
+    "recovery": {
+      "title": "Recuperar Contraseña",
+      "send": "Enviar correo de recuperación"
+    }
+  },
+  "messages": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Correo inválido",
+    "success": "Acción realizada con éxito",
+    "error": "Ocurrió un error",
+    "languageChanged": "Idioma cambiado correctamente"
+  }
+}
