@@ -1,0 +1,65 @@
+{
+  "app": {
+    "title": "TuChambaCloser",
+    "welcome": "Welcome to TuChambaCloser",
+    "logout": "Log out"
+  },
+  "navbar": {
+    "epic01": "Recommendations",
+    "epic02": "Company Ratings",
+    "epic03": "Search Jobs",
+    "epic04": "User Messages",
+    "epic05": "Emotional Support",
+    "epic06": "User Profile",
+    "epic07": "Company Ranking",
+    "epic08": "Maps and Notifications",
+    "epic09": "Settings",
+    "epic10": "Security",
+    "payments": "Subscription"
+  },
+  "footer": {
+    "terms": "Terms and Conditions"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "back": "Back",
+    "contact": "Contact",
+    "rate": "Rate"
+  },
+  "forms": {
+    "recommendation": {
+      "title": "Register Recommendation",
+      "company": "Company",
+      "position": "Position",
+      "salary": "Salary",
+      "tools": "Tools Used",
+      "interview": "Interview Process",
+      "workEnv": "Work Environment",
+      "submit": "Send Recommendation"
+    },
+    "login": {
+      "email": "Email",
+      "password": "Password",
+      "login": "Login"
+    },
+    "register": {
+      "title": "Register",
+      "confirmPassword": "Confirm Password"
+    },
+    "recovery": {
+      "title": "Recover Password",
+      "send": "Send Recovery Email"
+    }
+  },
+  "messages": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email",
+    "success": "Action completed successfully",
+    "error": "An error occurred",
+    "languageChanged": "Language changed successfully"
+  }
+}
