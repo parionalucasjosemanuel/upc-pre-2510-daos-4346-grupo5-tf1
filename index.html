@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TuChambaMásCerca</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header" role="banner">
+    <nav class="navbar" role="navigation">
+      <h1 class="logo">TuChambaMásCerca</h1>
+      <ul class="nav-links" aria-label="Main Navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#testimonies">Testimonials</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="http://localhost:4200/" class="btn">Log In</a></li>
+        <li><a href="http://localhost:4200/" class="btn highlight">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="carousel" aria-labelledby="home-heading">
+    <h2 id="home-heading" class="visually-hidden">Find Your Ideal Job with Transparency</h2>
+    <div class="carousel-container">
+      <img src="images/work-background-kxmiw0h0ugqy2eoa.jpg" alt="Image 1" class="carousel-image active" />
+      <img src="images/trabajo-1-1024x597.webp" alt="Image 2" class="carousel-image" />
+      <img src="images/compucad-felicidad-en-el-trabajo-blog-1-scaled.jpg" alt="Image 3" class="carousel-image" />
+      <button class="carousel-btn prev" onclick="prevSlide()" aria-label="Previous Slide">&#10094;</button>
+      <button class="carousel-btn next" onclick="nextSlide()" aria-label="Next Slide">&#10095;</button>
+    </div>
+    <div class="home-text">
+      <h2>Find Your Ideal Job with Transparency</h2>
+      <p>Explore real work experiences in the tech sector in Peru. Get firsthand accounts from other professionals, evaluate work environments before applying, and confidently decide your next step. Our platform provides direct access to authentic testimonials, detailed ratings, and interactive maps revealing the best and worst work areas based on the voices of those who have lived those experiences.</p>
+      <a href="http://localhost:4200/" class="btn cta" target="_blank" rel="noopener noreferrer" aria-label="Ir a la Aplicación Web">Join Now</a>
+
+    </div>
+  </section>
+
+  <section id="benefits" class="section" aria-labelledby="benefits-heading">
+    <h2 id="benefits-heading">Benefits of Using TuChambaMásCerca</h2>
+    <div class="grid-3">
+      <div class="card" role="article">
+        <img src="images/comparacion2.jpg" alt="Interactive Map">
+        <h3>Real-Time Interactive Map</h3>
+        <p>Visually see where the best and worst work experiences are in the tech sector of Peru, filtered by district and city.</p>
+      </div>
+      <div class="card" role="article">
+        <img src="images/concepto-moderno-anonimato-diseno-plano_23-2147876483.avif" alt="Opinions">
+        <h3>Real and Anonymous Experiences</h3>
+        <p>Make confident decisions based on detailed reviews written by people like you, sharing their experiences without fear of retaliation.</p>
+      </div>
+      <div class="card" role="article">
+        <img src="images/O64B6MQTD5CQZGSTDJAPGH5IGA.avif" alt="Analysis">
+        <h3>Advanced and Personalized Filters</h3>
+        <p>Adjust job searches according to your needs: location, modality (in-person, hybrid, remote), type of company, benefits, and growth opportunities.</p>
+      </div>
+      <div class="card" role="article">
+        <img src="images/images (1).jpg" alt="Analysis">
+        <h3>Smart Job Alerts</h3>
+        <p>Receive notifications whenever a user contacts you or you have contacted them.</p>
+      </div>
+      <div class="card" role="article">
+        <img src="images/1596419965834.png" alt="Analysis">
+        <h3>Useful Data for Your Career</h3>
+        <p>Access rankings and trends in the Peruvian tech job market to make decisions based on real data, not assumptions.</p>
+      </div>
+      <div class="card" role="article">
+        <img src="images/chatbot-4071274_1920.webp" alt="Analysis">
+        <h3>Emotional Support Chatbot</h3>
+        <p>Access your emotional support chatbot that is always there for you, providing guidance and emotional support during your job search. You will never be alone!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-section" aria-labelledby="stats-heading">
+    <h2 id="stats-heading">Our Community in Numbers</h2>
+    <div class="stats-container">
+      <div class="stat-box" role="article">
+        <div class="stat-number">+2,300</div>
+        <div class="stat-label">Connected Users</div>
+      </div>
+      <div class="stat-box" role="article">
+        <div class="stat-number">+580</div>
+        <div class="stat-label">Jobs Secured</div>
+      </div>
+      <div class="stat-box" role="article">
+        <div class="stat-number">+1,200</div>
+        <div class="stat-label">Published Recommendations</div>
+      </div>
+      <div class="stat-box" role="article">
+        <div class="stat-number">+150</div>
+        <div class="stat-label">Evaluated Companies</div>
+      </div>
+      <img src="images/images (2).jpg" alt="Analysis">
+    </div>
+  </section>
+
+  <section id="testimonies" class="section alt" aria-labelledby="testimonies-heading">
+    <h2 id="testimonies-heading">Testimonials</h2>
+    <div class="grid-3">
+      <div class="testimonial" role="article">
+        <img src="images/1725431151973.jpg" alt="Person">
+        <p>“Thanks to the platform, I was able to avoid a company with terrible conditions. I recommend it 100%! TuChambaMásCerca helped me avoid companies with bad labor practices, and thanks to the interactive map, I could apply only in areas with a good reputation.”</p>
+        <h4>Lucas Martinez - Developer</h4>
+      </div>
+      <div class="testimonial" role="article">
+        <img src="images/1730230975634.jpg" alt="Person">
+        <p>“The interactive map helped me choose the best company for my internship. Before each interview, I check the reviews on the platform. I avoided many bad experiences and chose companies aligned with my values.”</p>
+        <h4>Luis Santiago - Student</h4>
+      </div>
+      <div class="testimonial" role="article">
+        <img src="images/1733432782083.jpg" alt="Person">
+        <p>“Sharing my work experience was easy and satisfying. Now I know I help others! The testimonials section and direct contact with those who rated the companies allowed me to validate offers before accepting. Super useful!”</p>
+        <h4>Jack Medina - QA Tester</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section" aria-labelledby="team-heading">
+    <h2 id="team-heading">Meet the Team</h2>
+    <p>Together we form a community that seeks to empower professionals, students, and graduates through labor transparency.</p>
+    <div class="grid-3">
+      <div class="team-member" role="article">
+        <img src="images/Captura de pantalla 2022-08-16 174200.png" alt="Jose">
+        <h4>Jose Pariona</h4>
+        <p>Technical leader and web developer with experience in advanced HTML, CSS, and JavaScript. Passionate about creating digital solutions that simplify important decisions.</p>
+      </div>
+      <div class="team-member" role="article">
+        <img src="images/Captura de pantalla 2025-04-22 110533.png" alt="Marllely">
+        <h4>Marllely Arias</h4>
+        <p>UX/UI designer, committed to improving user experience and ensuring that every platform reflects accessibility, functionality, and empathy.</p>
+      </div>
+      <div class="team-member" role="article">
+        <img src="images/default_profile_avatar.svg" alt="Stephano">
+        <h4>Stephano Valdivia</h4>
+        <p>Frontend developer focused on creating visually appealing and optimized interfaces for different devices.</p>
+      </div>
+      <div class="team-member" role="article">
+        <img src="images/Imagen de WhatsApp 2025-04-22 a las 21.02.13_356fe042.jpg" alt="Jose">
+        <h4>Jesús Fernando Paucar Zenteno</h4>
+        <p>Analyst and programmer oriented towards system integration and continuous improvement in collaborative projects.</p>
+      </div>
+      <div class="team-member" role="article">
+        <img src="images/Imagen de WhatsApp 2025-04-22 a las 11.13.51_31c5763b.jpg" alt="Jose">
+        <h4>Alessandro Netto Zevallos Linares</h4>
+        <p>Infrastructure, security, and scalability specialist, ensuring that the platform is stable and reliable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos" class="section alt" aria-labelledby="videos-heading">
+    <h2 id="videos-heading">Videos</h2>
+    <div class="video-container">
+        <a href="https://www.youtube.com/watch?v=cxUuU1jwMgM" target="_blank" aria-label="About the Product">
+          <img src="https://img.youtube.com/vi/cxUuU1jwMgM/maxresdefault.jpg" alt="About the Product" style="width:100%;max-width:600px;cursor:pointer;">
+        </a>
+      
+        <a href="https://www.youtube.com/watch?v=-rZGi1xjZNU" target="_blank" aria-label="About the Team">
+          <img src="https://img.youtube.com/vi/-rZGi1xjZNU/maxresdefault.jpg" alt="About the Team" style="width:100%;max-width:600px;cursor:pointer;">
+        </a>
+      </div>
+    <h2>ABOUT US</h2>
+    <p>We are "TrabajandoYa", a Peruvian startup founded in 2025 with a clear mission: to empower professionals and students in the tech sector to make informed labor decisions. Our platform "TuChambaMásCerca" allows discovering, sharing, and rating work experiences anonymously, securely, and geolocated. We connect talent with real opportunities, based on the voice of the community. We believe in dignified work, transparency, and the power of shared information. Our vision is to become the number one reference for labor transparency in technology in Peru and Latin America.</p>
+  </section>
+
+  <section id="support" class="section" aria-labelledby="support-heading">
+    <h2 id="support-heading">Support and Help</h2>
+    <form id="supportForm" aria-label="Support Form">
+      <input type="text" placeholder="Name" name="name" required aria-required="true" />
+      <input type="email" placeholder="Email" name="email" required aria-required="true" />
+      <textarea placeholder="How can we help you?" name="message" required aria-required="true"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer" role="contentinfo">
+    <p>Contact: trabajandoya@correo.com | 📱 +51 987654321 | 📍 Lima, Peru</p>
+    <div class="socials" aria-label="Social Media Links">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+    <p>© 2025 TuChambaMásCerca</p>
+    <button onclick="window.location.href='terminosyrecomendaciones.html';">Ir a Términos y Recomendaciones</button>
+  </footer>
+</body>
+</html>
