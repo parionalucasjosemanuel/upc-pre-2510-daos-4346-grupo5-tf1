@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  padding: 16px;
+  background: linear-gradient(120deg, #ff7e5f, #feb47b); /* degradado cálido */
+  color: #1a1a1a; /* texto oscuro para buen contraste */
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(254, 180, 123, 0.6);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: box-shadow 0.3s ease;
+}
+
+:host(:hover) {
+  box-shadow: 0 12px 35px rgba(254, 180, 123, 0.9);
+}

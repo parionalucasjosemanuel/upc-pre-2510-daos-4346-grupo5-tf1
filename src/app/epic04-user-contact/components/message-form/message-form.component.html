@@ -1,0 +1,24 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-form-field class="full-width">
+    <mat-label>Your Email</mat-label>
+    <label>
+      <input matInput formControlName="sender" />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Recipient Email</mat-label>
+    <label>
+      <input matInput formControlName="receiver" />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Message</mat-label>
+    <label>
+      <textarea matInput formControlName="content"></textarea>
+    </label>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Send Message</button>
+</form>
