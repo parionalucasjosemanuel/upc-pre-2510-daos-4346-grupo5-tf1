@@ -1,0 +1,10 @@
+.filters-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 20px;
+  background-color: #1e1e2f; /* Azul muy oscuro, casi negro */
+  border-radius: 12px;
+  padding: 16px;
+  color: #f0f0f5; /* Gris clarito para texto */
+}

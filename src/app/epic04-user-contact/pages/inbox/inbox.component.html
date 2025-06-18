@@ -1,0 +1,12 @@
+<h2>Inbox</h2>
+
+<mat-list>
+  <mat-list-item *ngFor="let msg of messages" style="padding: 100px 0;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <p><strong>From:</strong> {{ msg.sender }}</p>
+      <p>{{ msg.content }}</p>
+      <p><small>{{ msg.timestamp | date:'short' }}</small></p>
+      <button mat-button color="warn" (click)="delete(msg.id)">Delete</button>
+    </div>
+  </mat-list-item>
+</mat-list>
