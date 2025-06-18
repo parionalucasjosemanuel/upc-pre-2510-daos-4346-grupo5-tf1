@@ -1,0 +1,9 @@
+.job-card {
+  margin-bottom: 16px;
+  background-color: #0e99f0; /* Rojo vibrante */
+  color: #000000; /* Negro para el texto */
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(255, 61, 0, 0.4);
+}

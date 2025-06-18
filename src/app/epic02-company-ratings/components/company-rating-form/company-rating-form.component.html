@@ -1,0 +1,31 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-form-field class="full-width">
+    <mat-label>Company</mat-label>
+    <label>
+      <input matInput formControlName="company" required />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Stars (1-5)</mat-label>
+    <label>
+      <input type="number" matInput formControlName="stars" required min="1" max="5" />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Comment</mat-label>
+    <label>
+      <textarea matInput formControlName="comment" required></textarea>
+    </label>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Your Name</mat-label>
+    <label>
+      <input matInput formControlName="author" required />
+    </label>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Submit</button>
+</form>
