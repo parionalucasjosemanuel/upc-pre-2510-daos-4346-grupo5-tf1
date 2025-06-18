@@ -1,0 +1,15 @@
+<div class="list-container">
+  <h2>Recommendations</h2>
+  <mat-list>
+    <mat-list-item *ngFor="let rec of recommendations">
+      <div class="item">
+        <h4>{{ rec.title }}</h4>
+        <p>{{ rec.description }}</p>
+        <p>{{ rec.author }}</p>
+        <p>{{ rec.date | date  }}</p>
+        <button mat-button color="primary" (click)="edit(rec.id)">Edit</button>
+        <button mat-button color="warn" (click)="delete(rec.id)">Delete</button>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</div>

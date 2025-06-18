@@ -1,0 +1,18 @@
+.list-container {
+  padding: 16px;
+  background-color: #1bb5a1; /* Azul muy claro para fondo suave */
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white; /* Fondo blanco para cada ítem */
+  color: #0d0d0d; /* Texto oscuro para buen contraste */
+}
+
+button {
+  margin-left: 8px;
+  background-color: black; /* Azul vibrante */
+}

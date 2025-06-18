@@ -1,0 +1,33 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-form-field class="full-width">
+    <mat-label>Name</mat-label>
+    <label>
+      <input matInput formControlName="name" />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Email</mat-label>
+    <label>
+      <input matInput formControlName="email" />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Password</mat-label>
+    <label>
+      <input matInput type="password" formControlName="password" />
+    </label>
+  </mat-form-field>
+  <!-- 🔐 Aquí se incorpora la verificación de seguridad visual -->
+  <app-password-strength [password]="form.get('password')?.value"></app-password-strength>
+
+  <mat-form-field class="full-width">
+    <mat-label>Phone</mat-label>
+    <label>
+      <input matInput formControlName="phone" />
+    </label>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Save</button>
+</form>
