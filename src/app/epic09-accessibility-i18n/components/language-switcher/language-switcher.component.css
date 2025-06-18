@@ -1,0 +1,15 @@
+mat-form-field {
+  width: 200px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* degradado púrpura a azul */
+  padding: 8px 12px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(37, 117, 252, 0.5);
+  color: #fff;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  display: inline-block;
+}
+
+mat-form-field:hover, mat-form-field.mat-focused {
+  box-shadow: 0 8px 25px rgba(37, 117, 252, 0.8);
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
