@@ -1,0 +1,32 @@
+.logo {
+  height: 55px;
+  margin-right: 1rem;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3)); /* sombra suave */
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+.toolbar-title
+  {font-size: 1.5rem;
+     font-weight: 700;
+     color: purple;}
+
+mat-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: linear-gradient(90deg, #4A90E2, #50E3C2); /* gradiente azul-verde */
+  color: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+  transition: background 0.4s ease;
+}
+
+mat-toolbar:hover {
+  background: linear-gradient(90deg, #357ABD, #3AC7A6); /* cambio sutil al hacer hover */
+}
