@@ -1,0 +1,8 @@
+<mat-form-field appearance="fill" aria-label="Language Selector">
+  <mat-label>Language</mat-label>
+  <mat-select [value]="langService.getCurrentLang()" (selectionChange)="changeLanguage($event.value)">
+    <mat-option *ngFor="let lang of langService.getAvailableLangs()" [value]="lang">
+      {{ lang === 'en_US' ? 'English' : 'Español' }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

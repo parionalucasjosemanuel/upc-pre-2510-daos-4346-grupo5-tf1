@@ -1,0 +1,17 @@
+<div class="chat-container">
+  <div class="messages">
+    <div *ngFor="let msg of messages" [ngClass]="msg.sender">
+      <p>{{ msg.content }}</p>
+      <span>{{ msg.timestamp | date:'shortTime' }}</span>
+    </div>
+  </div>
+
+  <form (ngSubmit)="onSubmit()" class="chat-form">
+    <label>
+      <input [(ngModel)]="inputText" name="message" required placeholder="Type your message..." />
+    </label>
+    <button mat-icon-button type="submit" aria-label="Send">
+      <mat-icon>send</mat-icon>
+    </button>
+  </form>
+</div>
