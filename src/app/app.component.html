@@ -1,0 +1,9 @@
+
+<app-toolbar *ngIf="showToolbar()"></app-toolbar>
+
+<main>
+  <app-language-switcher></app-language-switcher>
+  <router-outlet></router-outlet>
+</main>
+
+<app-footer *ngIf="showToolbar()"></app-footer>

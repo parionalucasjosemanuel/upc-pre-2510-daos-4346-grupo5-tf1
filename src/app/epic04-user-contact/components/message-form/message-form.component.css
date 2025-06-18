@@ -1,0 +1,10 @@
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, #ff6a00, #ee0979); /* Degradado naranja a rosa intenso */
+  color: #ffffff;
+  padding: 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: center;
+}

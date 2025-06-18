@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  padding: 20px;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  box-shadow: 0 8px 20px rgba(37, 117, 252, 0.3);
+  border-radius: 16px;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+:host(:hover) {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 40px rgba(37, 117, 252, 0.6);
+}

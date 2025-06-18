@@ -1,0 +1,26 @@
+<form [formGroup]="form" (ngSubmit)="onFilter()" class="filters-form">
+  <mat-form-field>
+    <mat-label>Location</mat-label>
+    <label>
+      <input matInput formControlName="location" />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Technology</mat-label>
+    <label>
+      <input matInput formControlName="technology" />
+    </label>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Order by</mat-label>
+    <mat-select formControlName="orderBy">
+      <mat-option value="rating">Rating</mat-option>
+      <mat-option value="createdAt">Date</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Apply</button>
+  <button mat-button type="button" (click)="clearFilters()">Clear</button>
+</form>
