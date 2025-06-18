@@ -1,0 +1,9 @@
+<mat-list>
+  <mat-list-item *ngFor="let company of companies" style="display: block; padding: 120px 4px; margin-bottom: 0px;">
+    <div style="width: 100%;">
+      <h3 style="font-size: 1.5rem; margin-bottom: 4px; line-height: 0;">{{ company.name }}</h3>
+      <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 8px;">{{ company.description }}</p>
+      <p style="font-weight: bold; font-size: 1.1rem;">Rating: {{ company.rating }} ⭐</p>
+    </div>
+  </mat-list-item>
+</mat-list>
